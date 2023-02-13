@@ -89,20 +89,10 @@ def run():
     with col1:
         st.write(' ')
     with col2:
-        st.image('https://www3.assets.heroku.com/assets/home/hero/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png',width=400)
+        st.image('https://www3.assets.heroku.com/assets/home/hero/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png')
     with col3:
         st.write(' ')
 
-    col1, col2, col3 = st.columns([3, 5, 3])
-
-    with col1:
-        st.write("")
-
-    with col2:
-        st.image(image, use_column_width=False)
-
-    with col3:
-        st.write("")
     category = ['--Select--', '📈 Trending News', '⭐ Favourite Topics', '🔍 Search Topic']
     cat_op = st.selectbox('Select your Category', category)
     if cat_op == category[0]:
