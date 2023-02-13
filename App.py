@@ -83,7 +83,7 @@ def run():
         st.title('SnapShot')
     with col3:
         st.write(' ')
-    st.markdown("Stay ahead of the curve with real-time updates")
+    st.markdown("<h1 style='text-align: center; color: orange;'>Stay ahead of the curve with real-time updates</h1>", unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns(3)
     with col1:
