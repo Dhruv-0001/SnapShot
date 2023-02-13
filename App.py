@@ -92,6 +92,7 @@ def run():
         st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif')
     with col3:
         st.write(' ')
+    st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif')
 
     category = ['--Select--', '📈 Trending News', '⭐ Favourite Topics', '🔍 Search Topic']
     cat_op = st.selectbox('Select your Category', category)
