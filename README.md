@@ -5,7 +5,7 @@ An application which provides summary of latest Topics, News and any searched to
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)   
 
 
-## [Demo of App](https://dhruv-0001-snapshot-app-keifr6.streamlit.app/)
+## [Live Link](https://dhruv-0001-snapshot-app-keifr6.streamlit.app/)
 
 ## Source
 - For summarizing the news I have used [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
