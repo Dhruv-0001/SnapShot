@@ -89,7 +89,7 @@ def run():
     with col1:
         st.write(' ')
     with col2:
-        st.image('https://www3.assets.heroku.com/assets/home/hero/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png')
+        st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif',width=500)
     with col3:
         st.write(' ')
 
