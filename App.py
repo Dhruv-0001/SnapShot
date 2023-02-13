@@ -89,12 +89,9 @@ def run():
     with col1:
         st.write(' ')
     with col2:
-        st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif')
+        st.image('https://cdn3d.iconscout.com/3d/premium/thumb/girl-reading-newspaper-5565463-4797694.png')
     with col3:
         st.write(' ')
-    st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif')
-    st.image('https://cdn3d.iconscout.com/3d/premium/thumb/girl-reading-newspaper-5565463-4797694.png')
-    st.image('https://newsinitiative.withgoogle.com/assets/videos/globe.gif')
 
     category = ['--Select--', '📈 Trending News', '⭐ Favourite Topics', '🔍 Search Topic']
     cat_op = st.selectbox('Select your Category', category)
