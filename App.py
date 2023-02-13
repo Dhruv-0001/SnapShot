@@ -76,10 +76,22 @@ def display_news(list_of_news, news_quantity):
 
 
 def run():
-    st.title('SnapShot')
-    st.subheader("Stay ahead of the curve with real-time updates")
-    st.image('https://www3.assets.heroku.com/assets/home/hero/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png',width=200)
-    image = Image.open('./Meta/newspaper.png')
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write(' ')
+    with col2:
+        st.title('SnapShot')
+    with col3:
+        st.write(' ')
+    st.markdown("Stay ahead of the curve with real-time updates")
+    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write(' ')
+    with col2:
+        st.image('https://www3.assets.heroku.com/assets/home/hero/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png',width=400)
+    with col3:
+        st.write(' ')
 
     col1, col2, col3 = st.columns([3, 5, 3])
 
