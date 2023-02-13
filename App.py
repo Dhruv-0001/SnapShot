@@ -89,7 +89,7 @@ def run():
     with col1:
         st.write(' ')
     with col2:
-        st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif',width=500)
+        st.image('https://payload.cargocollective.com/1/8/270313/8807453/ECP_VV_Business_Part_01.gif')
     with col3:
         st.write(' ')
 
