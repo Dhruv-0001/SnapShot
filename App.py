@@ -77,7 +77,7 @@ def display_news(list_of_news, news_quantity):
 
 def run():
     st.title('SnapShot')
-    st.subtitle("Stay ahead of the curve with real-time updates")
+    st.subheader("Stay ahead of the curve with real-time updates")
     image = Image.open('./Meta/newspaper.png')
 
     col1, col2, col3 = st.columns([3, 5, 3])
