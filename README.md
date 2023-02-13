@@ -7,6 +7,9 @@ An application which provides summary of latest Topics, News and any searched to
 
 ## [Live Link](https://dhruv-0001-snapshot-app-keifr6.streamlit.app/)
 
+## Demo Video
+https://user-images.githubusercontent.com/109892892/218480912-8580aaeb-2c74-43f4-a645-8136581d3bc8.mp4
+
 ## Source
 - For summarizing the news I have used [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
 - For scraping the news I have used Google News RSS API.
